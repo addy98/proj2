@@ -1,0 +1,113 @@
+* {
+    scroll-behavior: smooth;
+}
+
+.hero-text {
+    color: white;
+    position: relative;
+    top: 45%;
+    font-family: 'Russo One', sans-serif;
+}
+
+.hero-nav {
+    background-color: transparent;
+}
+
+.hero-img {
+    max-width: 100%;
+}
+
+.filler {
+    height: 100%;
+}
+
+.parallax-window {
+    height: 100%;
+}
+
+.divider {
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, purple);
+    width: 100%;
+    height: 8px;
+    opacity: 0.65;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    justify-content: center;
+}
+
+.divider-y {
+    background-image: linear-gradient(red, orange, yellow, green, blue, indigo, purple);
+    width: 8px;
+    height: 300px;
+    opacity: 0.65;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.fade {
+    opacity: 1;
+}
+
+.intro {
+    margin: 1em;
+    padding: 1em;
+    font-size: x-large;
+}
+
+.intro-l {
+    text-align: left;
+}
+
+.intro-r {
+    text-align: right;
+}
+
+.intro-c {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background-image: linear-gradient(to right, fuchsia, indigo);
+    transition: 0.25s;
+}
+
+.circle:hover {
+    transform: scale(1.1);
+}
+
+.arrow {
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+    position: relative;
+    top: 9px;
+}
+
+.arrow:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.slide-info {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 1em;
+    margin-right: 15%;
+    margin-left: 15%;
+    position: relative;
+    top: 25%;
+}
+
+.slide-info-quiz {
+    top: 15%
+}
+
+.slide-header {
+    color: grey;
+    font-family: 'Russo One', sans-serif;
+}
